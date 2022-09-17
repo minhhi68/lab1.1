@@ -81,7 +81,7 @@ export default class films extends Component {
                             <img src='assets/movies/japansinks.jpg'/>
                             <h3>Japan sinks</h3>
                             <p className='title'>2020</p>
-                            <p><button>Japan</button></p>
+                            <p><button>Japan, Netflix</button></p>
 
                         </div>
                     </div>
