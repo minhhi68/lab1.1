@@ -1,0 +1,69 @@
+.navigation-ul{
+  display:flex;
+  list-style-type: none;
+  background-color: blueviolet;
+  min-height: 45px;
+}
+
+.navigation-ul-2{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  
+  /* list-style-type: none; */
+  background-color: blueviolet;
+  min-height: 45px;
+ 
+}
+
+.active{
+  background-color: wheat;
+}
+
+a{
+  display: flex;
+  text-decoration: none;
+  padding: 0 15px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card{
+  text-align: center;
+  background-color: #F1F1F1;
+}
+
+.card2{
+  text-align: right;
+}
+
+.card img{
+  width: 100%;
+  border-radius: 8px;
+  size: 10%;
+  border-color: rebeccapurple;
+}
+
+.column{
+  padding: 9px 10px;
+}
+
+button{
+  width: 100%;
+  background-color: greenyellow;
+  color: black;
+
+}
+
+.card2{
+  width: 100%;
+  text-align: center;
+
+}
