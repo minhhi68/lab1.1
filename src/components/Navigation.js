@@ -22,7 +22,7 @@ export default function Navigation(){
         <nav>
              <ul className='navigation-ul'>
                 <li><a className='active' href='#home'>Home</a></li>
-                <li><a href='#movies'>Hot movies</a></li>
+                <li><a href='#movies' >Hot movies</a></li>
                 <li><a href='#genres'>Genres</a></li>
                 <li><a href='#tickets'>Tickets</a></li>
              </ul>

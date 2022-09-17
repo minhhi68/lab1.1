@@ -17,17 +17,25 @@
 }
 
 .active{
-  background-color: wheat;
+  background-color: mediumseagreen;
+}
+
+li{
+  display: inline-flex;
+  text-align: center;
+  width: 100%;
 }
 
 a{
   display: flex;
-  text-decoration: none;
+  text-decoration: wavy;
   padding: 0 15px;
   height: 100%;
   align-items: center;
   justify-content: center;
   color: white;
+  text-align: center;
+  
 }
 
 .container{
@@ -47,23 +55,28 @@ a{
 .card img{
   width: 100%;
   border-radius: 8px;
+ 
+  border: 5px solid #b1154a;
   size: 10%;
   border-color: rebeccapurple;
 }
 
 .column{
-  padding: 9px 10px;
+  padding: 5px 85px;
+  
 }
 
 button{
   width: 100%;
   background-color: greenyellow;
   color: black;
+  text-decoration: solid;
 
 }
 
 .card2{
   width: 100%;
   text-align: center;
+  text-decoration: double;
 
 }
