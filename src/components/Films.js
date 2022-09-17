@@ -70,7 +70,7 @@ export default class films extends Component {
                         <div className='card'>
                             <img src='assets/movies/yourname.jpg'/>
                             <h3>Your name</h3>
-                            <p className='title'>2016</p>
+                            <p className='title'>2016-2014</p>
                             <p><button>Japan</button></p>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ export default class films extends Component {
                             <img src='assets/movies/japansinks.jpg'/>
                             <h3>Japan sinks</h3>
                             <p className='title'>2020</p>
-                            <p><button>Japan, Netflix</button></p>
+                            <p><button>Japan</button></p>
 
                         </div>
                     </div>
