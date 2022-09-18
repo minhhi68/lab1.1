@@ -20,11 +20,11 @@
   background-color: mediumseagreen;
 }
 
-li{
+/* li{
   display: inline-flex;
   text-align: center;
   width: 100%;
-}
+} */
 
 a{
   display: flex;
@@ -54,11 +54,12 @@ a{
 
 .card img{
   width: 100%;
-  border-radius: 8px;
+  border-radius: 5px;
+  
  
-  border: 5px solid #b1154a;
-  size: 10%;
-  border-color: rebeccapurple;
+  /* border: 5px solid #b1154a; */
+  size: 5%;
+  /* border-color: rebeccapurple; */
 }
 
 .column{
