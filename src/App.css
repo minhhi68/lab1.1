@@ -12,7 +12,7 @@
   
   /* list-style-type: none; */
   background-color: blueviolet;
-  min-height: 45px;
+  min-height: 30px;
  
 }
 
@@ -79,5 +79,11 @@ button{
   width: 100%;
   text-align: center;
   text-decoration: double;
+  padding: 0px;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
 
 }
