@@ -94,22 +94,40 @@
 
 // }
 
+// import React from 'react'
+// import {Films} from '../shared/ListOfFilms'
+// export default function FilmsVN(){
+//     return (
+//         <div className='container'>
+//             {Films.map((film)=>(
+//                <div className='column'>
+//                <div className='card'>
+//                <img src={film.img}/>
+//                  <h3>{film.title}</h3>
+//                  <p className='title'>{film.year}</p>
+//                  <p><button>{film.nation}</button></p>
+//                </div>
+//              </div>
+//             ))}
+//         </div>
+//     )
+//             }
 import React from 'react'
-import {Films} from '../shared/ListOfFilms'
-export default function FilmsVN(){
+import { Films } from '../shared/ListOfFilms'
+export default function Players() {
+  
     return (
-        <div className='container'>
-            {Films.map((film)=>(
-               <div className='column'>
-               <div className='card'>
-               <img src={film.img}/>
-                 <h3>{film.title}</h3>
-                 <p className='title'>{film.year}</p>
-                 <p><button>{film.nation}</button></p>
-               </div>
-             </div>
-            ))}
-        </div>
-    )
-            }
-    
+    <div className='container'>
+        {Films.map((film)=>(
+           <div className='column'>
+           <div className='card'>
+           <img src={film.img}/>
+             <h3>{film.title}</h3>
+             <p className='title'>{film.year}</p>
+             <p><button>{film.nation}</button></p>
+           </div>
+         </div>
+        ))}
+    </div>
+  )
+        }
