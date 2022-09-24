@@ -122,12 +122,17 @@ button{
 }
 
 
+#switch-mode{
+  text-align: right;
+}
+
 
 .popup h2 {
   margin-top: 0;
   color: #333;
   display: block;
   margin-left: auto;
+  text-align: center;
   margin-right: auto;
   width: 50%;
   font-family: Tahoma, Arial, sans-serif;

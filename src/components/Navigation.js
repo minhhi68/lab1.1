@@ -52,7 +52,7 @@ export default function Navigation() {
             outline: 'none'
           }} data-testid="toggle-theme-btn"
         >
-          Switch Nav to {!dark ? 'Dark' : 'Light'} mode
+          Switch Navigation bar to {!dark ? 'Blueviolet' : 'Light'} mode
          </a>
          </div>
       </nav>
