@@ -122,14 +122,14 @@ button{
 }
 
 
-#switch-mode{
-  text-align: right;
-}
+
+
+
 
 
 .popup h2 {
   margin-top: 0;
-  color: #333;
+  color: brown;
   display: block;
   margin-left: auto;
   text-align: center;
@@ -153,5 +153,15 @@ button{
   overflow: auto;
 }
 
+
+
+
+img { 
+  opacity: 0.7; 
+} 
+
+img:hover { 
+  opacity: 1; 
+}
 
 
